@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "FunctionApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_STARTUP_HOOKS": "Microsoft.Azure.Functions.Worker.Core"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
